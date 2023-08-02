@@ -1,0 +1,65 @@
+
+.quoteBox {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+
+ }
+
+ .title {
+    font-family: 'Lugrasimo', cursive;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    color: rgb(88, 56, 18);
+    text-shadow: 10px 10px 20px black;
+
+     text-shadow: -1px 0 rgb(211, 196, 65), 1px 0 rgb(211, 196, 65), 0 1px rgb(211, 196, 65), 0 -1px rgb(211, 196, 65);
+ 
+   
+ }
+
+ .button {
+        background-image: url(./iconCookie.png);
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background-position: center;
+        background-size: cover;
+        border: 0;
+        box-shadow: 10px 10px 10px #302525;
+        background-color: transparent;
+        cursor: pointer;
+
+ }
+
+ .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+
+
+ }
+
+/*
+.quoteBox {
+   display: grid;
+   grid-template-rows: auto 1fr;
+   min-height: 100vh;
+   place-items: center;
+   width: min(100%, 400px);
+   padding: 20px 10px;
+   margin: 0 auto;
+}
+*/
